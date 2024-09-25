@@ -57,6 +57,7 @@ const cadastraTarefa = () => {
 
 <template>
   <div class="container">
+    // componentes personalizados
     <Cabecalho :tarefas-pendentes="getTarefasPendentes().length" />
     <Formulario :trocar-filtro="evento => estado.filtro = evento.target.value" 
                 :tarefa-temp="estado.tarefaTemporaria" 
